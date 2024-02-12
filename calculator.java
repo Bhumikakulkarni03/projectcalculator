@@ -18,8 +18,8 @@ class Main{
     public static void main(String args[]){
         System.out.println("Enter two numbers");
         Scanner s=new Scanner(System.in);
-        int a=s.nextInt();
-        int b=s.nextInt();
+        int a=12;//s.nextInt();
+        int b=15;//s.nextInt();
         calculator c=new calculator();
         c.add(a,b);
         c.substract(a,b);
