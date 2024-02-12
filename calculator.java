@@ -12,8 +12,7 @@ class calculator{
     void division(int a,int b){
         System.out.println("division "+(a/b));
     }
-}
-class Main{
+
 
     public static void main(String args[]){
         System.out.println("Enter two numbers");
