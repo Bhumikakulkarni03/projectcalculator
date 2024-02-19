@@ -13,14 +13,12 @@ class calculator extends extendedarith{
         System.out.println("division "+(a/b));
     }
     public static void main(String args[]){
-        int a=12;
-        int b=15;
         calculator c=new calculator();
         extendedarith e=new extendedarith();
-        c.add(a,b);
-        c.substract(a,b);
-        c.multi(a,b);
-        c.division(a,b);
+        c.add(2,6);
+        c.substract(6,7);
+        c.multi(3,6);
+        c.division(6,9);
         e.square(4);
         e.cube(8);
     }
